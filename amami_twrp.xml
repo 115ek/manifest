@@ -8,7 +8,6 @@
   <project name="LineageOS/android_device_sony_common" path="device/sony/common-caf" revision="lineage-15.1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.1" />
   <project name="omnirom/android_hardware_sony_thermanager" path="hardware/sony/thermanager" revision="android-8.1" />
-  <project name="omnirom/android_hardware_sony_location" path="hardware/sony/location" revision="android-8.1" />
   <project name="omnirom/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" revision="android-8.1" />
   <project name="omnirom/android_hardware_sony_timekeep" path="hardware/sony/timekeep" revision="android-8.1" />
   <project name="AICP/proprietary_vendor_sony" path="vendor/sony" revision="o8.1" />
