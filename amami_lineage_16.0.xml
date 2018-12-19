@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="115ek/device_sony_amami" path="device/sony/amami" revision="lineage-15.1" />
+  <project name="115ek/device_sony_amami" path="device/sony/amami" revision="lineage-16.0" />
   <project name="AICP/device_sony_rhine-common" path="device/sony/rhine-common" revision="p9.0" />
   <project name="AICP/device_sony_msm8974-common" path="device/sony/msm8974-common" revision="p9.0" />
   <project name="AICP/kernel_sony_msm8974" path="kernel/sony/msm8974" revision="p9.0" />
