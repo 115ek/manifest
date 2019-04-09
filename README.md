@@ -31,6 +31,8 @@ build:
 
 build LineageOS 15.1
 ---------------
+Attention! 15.1 is now build from https://github.com/lin15-microG/local_manifests
+(you're still able to use this manifest, too)
 navigate into desired directory
 
 initialize repo:
