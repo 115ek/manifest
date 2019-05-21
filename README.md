@@ -23,7 +23,9 @@ setup build environment
 get needed patches:
 
     $ repopick -g https://review.lineageos.org 243706
-    $ repopick -g https://gerrit.aicp-rom.com 88139 88145
+    $ repopick -g https://gerrit.aicp-rom.com 88139 88145 89891 89888
+    
+    also get https://github.com/CarbonROM/android_device_sony_common/commit/3a7de02a325a2e499d7d47bc91d670e3b3e88ccf
 
 build:
 
