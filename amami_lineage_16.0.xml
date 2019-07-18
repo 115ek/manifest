@@ -4,8 +4,8 @@
   <project name="AICP/device_sony_rhine-common" path="device/sony/rhine-common" revision="p9.0" />
   <project name="AICP/device_sony_msm8974-common" path="device/sony/msm8974-common" revision="p9.0" />
   <project name="AICP/kernel_sony_msm8974" path="kernel/sony/msm8974" revision="p9.0" />
-  <project name="CarbonBeta/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" revision="cr-7.0" />
-  <project name="LineageOS/android_device_sony_common" path="device/sony/common-caf" revision="lineage-16.0" />
+  <project name="CarbonRom/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" revision="cr-7.0" />
+  <project name="AICP/device_sony_common" path="device/sony/common-caf" revision="p9.0-caf" />
   <project name="omnirom/android_hardware_sony_thermanager" path="hardware/sony/thermanager" revision="android-8.1" />
   <project name="omnirom/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" revision="android-8.1" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" revision="lineage-16.0" />
