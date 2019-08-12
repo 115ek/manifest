@@ -22,8 +22,7 @@ setup build environment
 
 get needed patches:
 
-    $ repopick -g https://review.lineageos.org 252619
-    $ repopick -g https://gerrit.aicp-rom.com 88139 88145 92246 93140
+    $ repopick -g https://gerrit.aicp-rom.com 88139 88145 92246
 
 build:
 
