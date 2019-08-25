@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="115ek/device_sony_amami" path="device/sony/amami" revision="twrp" />
-  <project name="AICP/device_sony_rhine-common" path="device/sony/rhine-common" revision="o8.1" />
-  <project name="AICP/device_sony_msm8974-common" path="device/sony/msm8974-common" revision="o8.1" />
-  <project name="AICP/kernel_sony_msm8974" path="kernel/sony/msm8974" revision="o8.1" />
-  <project name="sonyxperiadev/boringssl-compat" path="external/sony/boringssl-compat" revision="master" />
-  <project name="LineageOS/android_device_sony_common" path="device/sony/common-caf" revision="lineage-15.1" />
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.1" />
-  <project name="omnirom/android_hardware_sony_thermanager" path="hardware/sony/thermanager" revision="android-8.1" />
-  <project name="omnirom/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" revision="android-8.1" />
-  <project name="omnirom/android_hardware_sony_timekeep" path="hardware/sony/timekeep" revision="android-8.1" />
-  <project name="AICP/proprietary_vendor_sony" path="vendor/sony" revision="o8.1" />
-  <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" revision="android-8.1" />
-  <project name="omnirom/android_external_busybox" path="external/busybox" revision="android-8.1" />
+  <project name="AICP/kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="p9.0" />
+  <project name="115ek/twrp_device_sony_amami" path="device/sony/amami" remote="github" revision="android-9.0" />
 </manifest> 

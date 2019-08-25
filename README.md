@@ -53,6 +53,14 @@ build:
 
 build TWRP
 ----------
+TWRP is built in a minimal environment to save disk space and to avoid a lot of unnecessary things.
+
+navigate into desired directory
+
+initialize repo: 
+
+    repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
+
 download manifest: 
 
     curl https://raw.githubusercontent.com/115ek/manifest/master/amami_twrp.xml > /your_directory/.repo/local_manifests/amami_twrp.xml
@@ -63,9 +71,6 @@ sync repo:
 
 build:
 
-    . build/envsetup.sh
-    lunch
-
-choose **lineage_amami-eng** here!
-    
+    export ALLOW_MISSING_DEPENDENCIES=true
+    . build/envsetup.sh && lunch omni_amami-eng
     mka recoveryimage
