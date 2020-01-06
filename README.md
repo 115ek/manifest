@@ -102,6 +102,10 @@ sync repo:
 
     $ repo sync
 
+get needed patch (this fixes automatic OTA update installation):
+
+    $ repopick -g https://gerrit.omnirom.org 35313
+
 build:
 
     export ALLOW_MISSING_DEPENDENCIES=true
