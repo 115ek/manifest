@@ -1,16 +1,16 @@
 Usage
 =====
-build LineageOS 17.0
+build LineageOS 17.1
 ---------------
 navigate into desired directory
 
 initialize repo:
 
-    repo init -u https://github.com/LineageOS/android.git -b lineage-17.0
+    repo init -u https://github.com/LineageOS/android.git -b lineage-17.1
 
 download manifest: 
 
-    curl https://raw.githubusercontent.com/115ek/manifest/master/amami_lineage_17.0.xml > /your_directory/.repo/local_manifests/amami.xml
+    curl https://raw.githubusercontent.com/115ek/manifest/master/amami_lineage_17.1.xml > /your_directory/.repo/local_manifests/amami.xml
 
 sync repo:
 
@@ -21,11 +21,8 @@ setup build environment
     $ source build/envsetup.sh
 
 get needed patches:
-
-    apply patches from here: https://github.com/sagit-10-temp/local_manifests/blob/master/picks.sh (too lazy to list them here... big thanks @Arian :) ) This will be removed when all the things become more mature
     
     $ repopick -g https://gerrit.aicp-rom.com -t sony8974_ten
-    $ repopick -g https://gerrit.aicp-rom.com -t sony8974_shim_update
     
     Also big thanks @SpiritCroc :)
 
