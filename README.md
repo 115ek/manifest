@@ -22,7 +22,9 @@ setup build environment
 
 get needed patches:
     
-    $ repopick -g https://gerrit.aicp-rom.com -t sony8974_ten
+    $ repopick -g https://gerrit.aicp-rom.com -t sony8974_ten_SE
+    $ repopick -g https://gerrit.aicp-rom.com 97674 94159
+    $ repopick -g https://review.lineageos.org 268119 268281 268282 268495
     
     Also big thanks @SpiritCroc :)
 
@@ -32,6 +34,9 @@ build:
 
 build LineageOS 16.0
 ---------------
+Attention! 16.0 is now build from https://github.com/lin16-microG/local_manifests
+(you're still able to use this manifest, too)
+
 navigate into desired directory
 
 initialize repo:
@@ -62,6 +67,7 @@ build LineageOS 15.1
 ---------------
 Attention! 15.1 is now build from https://github.com/lin15-microG/local_manifests
 (you're still able to use this manifest, too)
+
 navigate into desired directory
 
 initialize repo:
@@ -99,12 +105,16 @@ sync repo:
 
     $ repo sync
 
+set up build env:
+
+    $ export ALLOW_MISSING_DEPENDENCIES=true
+    $ source build/envsetup.sh
+
 get needed patch (this fixes automatic OTA update installation):
 
     $ repopick -g https://gerrit.omnirom.org 35313
 
 build:
 
-    export ALLOW_MISSING_DEPENDENCIES=true
-    . build/envsetup.sh && lunch omni_amami-eng
-    mka recoveryimage
+    $ lunch omni_amami-eng
+    $ mka recoveryimage
