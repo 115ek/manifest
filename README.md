@@ -22,8 +22,7 @@ setup build environment
 
 get needed patches:
     
-    $ repopick -g https://gerrit.aicp-rom.com -t sony8974_ten_SE
-    $ repopick -g https://gerrit.aicp-rom.com 97674 94159
+    $ repopick -g https://gerrit.aicp-rom.com 94159 97466 98761
     $ repopick -g https://review.lineageos.org 268119 268281 268282 268495
     
     Also big thanks @SpiritCroc :)
