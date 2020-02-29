@@ -112,7 +112,7 @@ set up build env:
 
 get needed patch (this fixes automatic OTA update installation):
 
-    $ repopick -g https://gerrit.twrp.me 1990
+    $ repopick -g https://gerrit.twrp.me 1673 1990
 
 build:
 
