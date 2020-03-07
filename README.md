@@ -24,7 +24,6 @@ get needed patches:
     
     $ repopick -g https://gerrit.aicp-rom.com -t sony8974_gps
     $ repopick -g https://gerrit.aicp-rom.com 94159 98761
-    $ repopick -g https://review.lineageos.org 268119
     
     Also big thanks @SpiritCroc :)
 
