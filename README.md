@@ -22,7 +22,6 @@ setup build environment
 
 get needed patches:
     
-    $ repopick -g https://gerrit.aicp-rom.com -t sony8974_gps
     $ repopick -g https://gerrit.aicp-rom.com 94159 98761 98934 99130 99131
     
     Also big thanks @SpiritCroc :)
