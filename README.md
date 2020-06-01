@@ -20,12 +20,6 @@ setup build environment
 
     $ source build/envsetup.sh
 
-get needed patches:
-    
-    $ repopick -g https://gerrit.aicp-rom.com 99130 99131
-    
-    Also big thanks @SpiritCroc :)
-
 build:
 
     brunch amami

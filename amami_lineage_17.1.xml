@@ -2,7 +2,7 @@
 <manifest>
   <project name="115ek/device_sony_amami" path="device/sony/amami" revision="lineage-17.1" />
   <project name="AICP/device_sony_rhine-common" path="device/sony/rhine-common" revision="q10.0" />
-  <project name="AICP/device_sony_msm8974-common" path="device/sony/msm8974-common" revision="q10.0" />
+  <project name="115ek/device_sony_msm8974-common" path="device/sony/msm8974-common" revision="lineage-17.1" />
   <project name="AICP/kernel_sony_msm8974" path="kernel/sony/msm8974" revision="q10.0" />
   <project name="AICP/proprietary_vendor_sony" path="vendor/sony" revision="q10.0" />
   <project name="AICP/device_sony_common" path="device/sony/common-caf" revision="q10.0-caf" />
