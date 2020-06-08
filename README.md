@@ -19,10 +19,6 @@ sync repo:
 setup build environment
 
     $ source build/envsetup.sh
-    
-get needed patches:	
-
-    $ repopick -t gnss-haxx
 
 build:
 
