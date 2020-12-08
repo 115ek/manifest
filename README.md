@@ -1,5 +1,44 @@
 Usage
 =====
+build LineageOS 18.0
+---------------
+navigate into desired directory
+
+initialize repo:
+
+    repo init -u https://github.com/LineageOS/android.git -b lineage-18.0
+
+download manifest:
+
+    curl https://raw.githubusercontent.com/115ek/manifest/master/amami_lineage_18.0.xml > /your_directory/.repo/local_manifests/amami.xml
+
+sync repo:
+
+    $ repo sync
+
+setup build environment
+
+    $ source build/envsetup.sh
+
+get needed patches:
+
+    $ repopick 295701 292788 289841 286185 292244 # legacy support, adb, ...
+    $ repopick 287706 -P external/perfetto
+    $ repopick -g https://gerrit.aicp-rom.com 104256 104257 # vendor
+    $ repopick -g https://gerrit.aicp-rom.com 104527 # kernel
+    $ repopick -g https://gerrit.aicp-rom.com 105493 105494 105495 105496 # sony-common
+    $ repopick -g https://gerrit.aicp-rom.com 104258 104259 104528 104529 104531 104532 105898 106137 106233 # rhine-common
+    $ repopick -g https://gerrit.aicp-rom.com 104521 104522 104523 104525 104996 104997 104998 105894 105895 105897 106066 106067 106096 106145 106146 106147 # 8974-common
+    $ repopick -g https://gerrit.aicp-rom.com 105818 -P system/core
+    $ repopick -g https://gerrit.aicp-rom.com 105646 -P frameworks/native
+    $ repopick -g https://gerrit.aicp-rom.com 105644 -P build/make
+    $ repopick -g https://gerrit.aicp-rom.com 105645 -P build/soong
+    $ repopick -g https://gerrit.aicp-rom.com 105817 -P vendor/lineage
+
+build:
+
+    brunch amami
+
 build LineageOS 17.1
 ---------------
 navigate into desired directory
