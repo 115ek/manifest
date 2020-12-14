@@ -22,8 +22,7 @@ setup build environment
 
 get needed patches:
 
-    $ repopick 295701 292788 289841 286185 292244 # legacy support, adb, ...
-    $ repopick 287706 -P external/perfetto
+    $ repopick 295701 292788 292244 # product_launched_with...mk, adb, selinux
     $ repopick -g https://gerrit.aicp-rom.com 104256 104257 # vendor
     $ repopick -g https://gerrit.aicp-rom.com 104527 # kernel
     $ repopick -g https://gerrit.aicp-rom.com 105493 105494 105495 105496 # sony-common
