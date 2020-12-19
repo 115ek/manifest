@@ -22,7 +22,8 @@ setup build environment
 
 get needed patches:
 
-    $ repopick 295701 292788 292244 # product_launched_with...mk, adb, selinux
+    $ repopick -f 295701 # Add product_launched_with_j_mr2 for JellyBean 4.3
+    $ repopick 292788 # adb
     $ repopick -g https://gerrit.aicp-rom.com 104256 104257 # vendor
     $ repopick -g https://gerrit.aicp-rom.com 104527 # kernel
     $ repopick -g https://gerrit.aicp-rom.com 105493 105494 105495 105496 # sony-common
