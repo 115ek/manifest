@@ -6,8 +6,8 @@
   <project name="AICP/kernel_sony_msm8974" path="kernel/sony/msm8974" revision="r11.1" />
   <project name="AICP/proprietary_vendor_sony" path="vendor/sony" revision="r11.1" />
   <project name="AICP/device_sony_common" path="device/sony/common-caf" revision="r11.1-caf" />
-  <project name="AICP/hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" revision="q10.0" />
-  <project name="AICP/hardware_sony_thermanager" path="hardware/sony/thermanager" revision="q10.0" />
-  <project name="AICP/hardware_sony_timekeep" path="hardware/sony/timekeep" revision="q10.0" />
-  <project name="AICP/external_sony_boringssl-compat" path="external/sony/boringssl-compat" revision="q10.0" />
+  <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" revision="lineage-18.1" />
+  <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" revision="lineage-18.1" />
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" revision="lineage-18.1" />
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" revision="lineage-18.1" />
 </manifest>
