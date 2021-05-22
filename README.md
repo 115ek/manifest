@@ -22,11 +22,12 @@ setup build environment
 
 apply needed patches:
 
+    $ repopick 310331 # Settings: Display NFC settings correctly
     $ cd device/sony/msm8974-common
-    $ git fetch http://gerrit.aicp-rom.com/AICP/device_sony_msm8974-common refs/changes/93/109793/1 && git checkout FETCH_HEAD
+    $ git fetch http://gerrit.aicp-rom.com/AICP/device_sony_msm8974-common refs/changes/28/109528/4 && git checkout FETCH_HEAD
     $ cd ../../..
     $ cd device/sony/rhine-common
-    $ git fetch http://gerrit.aicp-rom.com/AICP/device_sony_rhine-common refs/changes/31/109531/5 && git checkout FETCH_HEAD
+    $ git fetch http://gerrit.aicp-rom.com/AICP/device_sony_rhine-common refs/changes/31/109531/6 && git checkout FETCH_HEAD
 
 in device/sony/rhine-common apply the following patch:
 ```
