@@ -27,7 +27,7 @@ apply needed patches:
     $ git fetch http://gerrit.aicp-rom.com/AICP/device_sony_msm8974-common refs/changes/28/109528/4 && git checkout FETCH_HEAD
     $ cd ../../..
     $ cd device/sony/rhine-common
-    $ git fetch http://gerrit.aicp-rom.com/AICP/device_sony_rhine-common refs/changes/31/109531/6 && git checkout FETCH_HEAD
+    $ git fetch http://gerrit.aicp-rom.com/AICP/device_sony_rhine-common refs/changes/31/109531/7 && git checkout FETCH_HEAD
 
 in device/sony/rhine-common apply the following patch:
 ```
