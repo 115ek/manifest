@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="lin18-microG/android_device_sony_amami" path="device/sony/amami" revision="lineage-18.1" />
+  <project name="115ek/android_device_sony_rhine-common" path="device/sony/rhine-common" revision="lineage-19.0-WIP" />
+  <project name="115ek/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="lineage-19.0-WIP" />
+  <project name="115ek/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="lineage-19.0-WIP" />
+  <project name="lin18-microG/proprietary_vendor_sony_amami" path="vendor/sony" revision="lineage-18.1" />
+
+
+  <project name="AICP/device_sony_common" path="device/sony/common-caf" revision="r11.1-caf" />
+
+  <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" revision="lineage-18.1" />
+  <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" revision="lineage-18.1" />
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" revision="lineage-18.1" />
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" revision="lineage-18.1" />
+
+  <!-- additional bringup stuff -->
+  <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy" revision="lineage-18.1-legacy" />
+  <project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" revision="lineage-18.1" />
+  <project name="LineageOS/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" revision="lineage-18.1" />
+  <project name="LineageOS/android_external_connectivity" path="external/connectivity" revision="lineage-18.1" />
+
+  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8974/audio" revision="lineage-18.1-caf-msm8974" />
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/msm8974/display" revision="lineage-18.1-caf-msm8974" />
+  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom-caf/msm8974/media" revision="lineage-18.1-caf-msm8974" />
+
+</manifest>
