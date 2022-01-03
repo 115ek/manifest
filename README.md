@@ -28,6 +28,13 @@ apply needed patches:
     $ repopick -P art 318097
     $ repopick -f 287706 -P external/perfetto
     $ repopick 317298 317300 317301
+    $ repopick 317966-317971 318383-318386 318388         # packages/apps/Trebuchet
+    $ repopick -t twelve-restore-camera-hal1
+    $ repopick -t twelve-camera-extension
+    $ repopick 320528-320530                              # twelve-qcom-cam
+    $ repopick -P hardware/interfaces 320531-320532       # twelve-qcom-cam
+    $ repopick -t twelve-legacy-camera
+    $ repopick 320514
 
 apply this patch in `hardware/qcom-caf/msm8974/display`:
 ```patch
