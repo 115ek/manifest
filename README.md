@@ -24,11 +24,10 @@ apply needed patches:
 
     $ repopick -P system/bpf 320591
     $ repopick -P system/netd 320592
-    $ repopick -P system/tools/mkbootimg 319780
     $ repopick -P art 318097
     $ repopick -f 287706 -P external/perfetto
-    $ repopick 317298 317300 317301
-    $ repopick 317966-317971 318383-318386 318388         # packages/apps/Trebuchet
+    $ repopick 317301
+    $ repopick 317966-317971 318383-318385 318388         # packages/apps/Trebuchet
     $ repopick -t twelve-restore-camera-hal1
     $ repopick -t twelve-camera-extension
     $ repopick 320528-320530                              # twelve-qcom-cam

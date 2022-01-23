@@ -17,7 +17,6 @@
   <!-- additional bringup stuff -->
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy" revision="lineage-18.1-legacy" />
   <project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" revision="lineage-18.1" />
-  <project name="LineageOS/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" revision="lineage-18.1" />
   <project name="LineageOS/android_external_connectivity" path="external/connectivity" revision="lineage-18.1" />
 
   <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8974/audio" revision="lineage-18.1-caf-msm8974" />
